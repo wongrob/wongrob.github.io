@@ -9,7 +9,7 @@ Imagine you get into a car, but not into the driver’s seat. Well, it might be 
 ## A quick introduction to vehicle autonomy
 The Society of Autonomous Engineers (SAE) defines 6 levels of autonomy ranging from 0 to 5. Level 0 is where there is no driver assistance and level 5 is where the driver no longer drives and the vehicle is completely autonomous. Below is a helpful infographic for understanding the levels of autonomy<sup>[1]</sup>.
 
-![Levels of Driving Autonomy](/assets/sae-j3016-levels-of-driving-automation.jpg)
+![Levels of Driving Autonomy](/assets/images/sae-j3016-levels-of-driving-automation.jpg)
 
 The pursuit of autonomous vehicles has been an interest since the early 2000’s. It brings the promise of no longer having to own a car, reduced emissions, and safer travel and roads, however some of these promises are more controversial than others. Since the idea of autonomous vehicles was first explored, there have been many advancements thanks to improving technology, especially the improvements in AI. However, this post isn’t about the history and development of autonomous vehicles, but the current state and my thoughts. If you are interested in reading more about the history of autonomous vehicles, I recommend reading Autonomy: The quest to build the driverless car – and how it will reshape our world by Lawrence D. Burns and Christopher Shulgan<sup>[2]</sup>.
 
