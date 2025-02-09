@@ -23,7 +23,7 @@ Here are some 3D print designs I am working on. I sometimes sell them on Etsy as
 Images and description to come.
 
 ## Floppy Disk Container Frame
-The designs are not air-tight, although they could be glued together to be. I have a black rectangular one sitting on my desk at work holding my pens and similar items.
+The designs are not air-tight, although they could be glued together to be. I have a black triangular one sitting on my desk at work holding my pens and similar items.
 
 ### Triangular
 {% include gallery-slides.html height="70" unit="%" id="trianglular-container" images=page.trianglular-container-images %}
