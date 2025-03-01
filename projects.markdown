@@ -27,7 +27,7 @@ S. Gill, R. Wong, S. Tayeb, F. Trueblood, M. Pirouz
 
 Proceedings of the Future Technologies Conference (FTC) 2020, Volume 3
 
-< https://doi.org/10.1007/978-3-030-63092-8_39>
+<https://doi.org/10.1007/978-3-030-63092-8_39>
 
 ### Feature Selection for Deep Neural Networks in Cyber Security Applications
 A. Davis, S. Gill, R. Wong, S. Tayeb
