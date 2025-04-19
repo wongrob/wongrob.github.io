@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </header>
+        <div class="post-content">
+          <h2>Anime Watched List</h2>
+          <p id="{{ page.sheet_name }}">
+            <span>Here is a table of Animes I have seen in the approximate order that I first watched them. At some point I will get around to rating some or all of them.</span>
+          </p>
+          <script src="/assets/js/spreadsheet-parser.js" sheet_id="{{ page.sheet_id }}"
+            sheet_name="{{ page.sheet_name }}" element_id="{{ page.sheet_name }}" star_label_column="Favorite" x_label_column="Remaining"></script>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+</body>
+
+</html>
