@@ -14,12 +14,99 @@
           <h1 class="post-title">{{ page.title }}</h1>
         </header>
         <div class="post-content">
-          <h2>Anime Watched List</h2>
-          <p id="{{ page.sheet_name }}">
-            <span>Here is a table of Animes I have seen in the approximate order that I first watched them. At some point I will get around to rating some or all of them.</span>
+          <h2>My Introduction to "Animanga"</h2>
+          <p>
+            <span>
+              I only got into anime and Japanese pop culture when the pandemic hit in 2020, but I
+              soon got hooked on it and have continued consuming it ever since. I have been around
+              Japanese culture since I am half Japanese, but never really got into the pop culture
+              part until then. The first anime that really got me into anime was Sword Art Online,
+              which I loved because of the overall concept of being trapped in virtual reality, and
+              I actually liked the main character, mostly because I wished I could be him. I'm not a
+              fan of the second season (of the anime), but I think it has gotten a lot better with
+              the Alicization arc, and I also think that the Progressive series is really good. But
+              I have continued to watch anime and have been discovering what I like and don't like.
+              I have learned that I love romance, especially bittersweet romance, which is
+              surprising because I am not a fan of live-action romance because I think it is too
+              cheesy. I am also a sucker for slice of life anime, but I consider this more of a
+              format for anime more so than a genre.
+              <br>
+              <br>
+              I also really love reading, so of course I had to get into light novels. I think
+              technically Oregairu is the first light novel series I started reading, which I kind
+              of regret because I read it after the anime and felt like I didn't get much from it.
+              However, I ended up also reading the Sword Art Online series and ended up really
+              enjoying it also getting me hooked on light novels, especially the Progressive series.
+              I've started and continue to only read the light novels for animes that I have watched
+              and liked because I think there is a lower risk of not enjoying the book that way,
+              which I don't like taking too much risk with books I don't like, mostly because I am a
+              slow reader and it takes me a long time, and my perfectionism makes me feel like I
+              have to finish the book (although maybe not the whole series) even when I'm not
+              enjoying it. The Rascal Does Not Dream series was a bit of a risk because I was
+              worried about the title, but I ended up really enjoying it and it was proof that you
+              can't always judge a book by its cover (or title). There are so many more light novels
+              I want to read, and am slowly catching up on, but it is hard to balance them with
+              other books I want to read.
+              <br>
+              <br>
+              Finally there is manga. Personally I am a fan of reading light novels over manga,
+              mostly because I'm not a big fan of "reading pictures". I feel like I prefer to read
+              words, so I prefer light novels, or if I want to see pictures, I would rather watch
+              anime, so manga is hard for me to get into. However, I have read manga for anime
+              series I really like. I started with Fruits Basket because the books looked so cool,
+              but as I went through the manga, that was when I realized I wasn't really a fan of
+              manga. But there were some animes I enjoyed so much that I wanted to read the manga,
+              such as Your Lie in April, and so I ended up doing that and enjoyed the manga. Now I
+              also only read manga for animes I really enjoyed. However, I am starting to think that
+              I should give manga another shot, especially since I read it a lot faster and there
+              are a lot of good stories that are only in manga and not anime or light novels. So,
+              we'll see how that goes.
+              <br>
+              <br>
+              That is my not so brief introduction to my interest in anime, manga, and light novels.
+              Anyways, this page is dedicated to my thoughts on the anime, manga, and light novels I
+              have seen/read. I'll probably also add lists of to watch/read as well. I may add some
+              more details for specific series, but for now I am going to keep it simple with these
+              lists and some summarized thoughts in a table. I also wanted to make this to learn how
+              to use a spreadsheet to create an automatically updating page.
+            </span>
+          </p>
+          <h2>Anime</h2>
+          <h3>Top 10*</h3>
+          <ol>
+            <li>Frieren</li>
+            <li>Oshi no Ko</li>
+            <li>Plastic Memories</li>
+            <li>Blue Box</li>
+            <li>Sword Art Online (Progressive over the original)</li>
+            <li>Your Lie in April</li>
+            <li>Rascal Does Not Dream</li>
+            <li>Weathering with You</li>
+            <li>I Want to Eat Your Pancreas</li>
+            <li>Steins;Gate</li>
+          </ol>
+          Honorable Mentions:
+          <ul>
+            <li>Your Name</li>
+            <li>Classroom of the Elite</li>
+            <li>Violet Evergarden</li>
+          </ul>
+          All my "favorites" are listed in the table as well.
+          <h3>Watched</h3>
+          <p>
+            <span>
+              Here is a table of animes I have seen in the approximate order (starting from the top)
+              that I first watched them. At some point I will get around to rating some or all of
+              them.
+              <br>
+              <br>
+            </span>
+            <div id="{{ page.sheet_name }}" style="height: 600px; overflow-y: scroll;"></div>
           </p>
           <script src="/assets/js/spreadsheet-parser.js" sheet_id="{{ page.sheet_id }}"
-            sheet_name="{{ page.sheet_name }}" element_id="{{ page.sheet_name }}" star_label_column="Favorite" x_label_column="Remaining"></script>
+                  sheet_name="{{ page.sheet_name }}" element_id="{{ page.sheet_name }}"
+                  star_label_column="Favorite" x_label_column="Remaining">
+          </script>
         </div>
       </article>
     </div>
